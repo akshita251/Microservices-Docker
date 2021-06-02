@@ -1,5 +1,6 @@
 const app = require("express")();
 const appid = process.env.APPID;
+// const port = process.env.PORT;
 
 app.get("/", (req,res) => 
 res.send(`appid: ${appid} home page: says hello!`))
